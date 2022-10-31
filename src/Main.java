@@ -20,7 +20,7 @@ class Main {
 
             if (turnCount % 2 == 0) {
 
-                System.out.printf("\nХодят %s введите координаты:\n >>", CROSS);
+                System.out.printf("\nХодят %s введите координаты по форме X Y:\n >>", CROSS);
 
                 int row = GameField.IN.nextInt();
                 int column = GameField.IN.nextInt();
@@ -38,7 +38,7 @@ class Main {
                 }
 
             } else {
-                System.out.printf("\nХодят %s введите координаты:\n >>", ZERO);
+                System.out.printf("\nХодят %s введите координаты по форме X Y:\n >>", ZERO);
 
                 int row = GameField.IN.nextInt();
                 int column = GameField.IN.nextInt();

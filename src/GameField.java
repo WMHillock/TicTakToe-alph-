@@ -12,10 +12,10 @@ class GameField {
         System.out.print("Введите количество колонок\n>>");
         int columnArr = Integer.parseInt(IN.nextLine());
 
-        ArrayList<ArrayList<String>> gameField = new ArrayList<ArrayList<String>>();
+        ArrayList<ArrayList<String>> gameField = new ArrayList<>();
 
         for (int i = 0; i < rowArr + 1; i++) {
-            gameField.add(new ArrayList<String>());
+            gameField.add(new ArrayList<>());
             for (int j = 0; j < columnArr + 1; j++) {
                 gameField.get(i).add(j, Main.EMPTY);
             }
